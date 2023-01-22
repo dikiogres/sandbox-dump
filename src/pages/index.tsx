@@ -6,28 +6,8 @@ import Seo from '@/components/Seo';
 
 const sandbox = [
   {
-    title: 'Form',
-    route: '/sandbox/form',
-  },
-  {
-    title: 'React Query',
-    route: '/sandbox/toast-rq',
-  },
-  {
-    title: 'Typography',
-    route: '/sandbox/typography',
-  },
-  {
-    title: 'Colors',
-    route: '/sandbox/colors',
-  },
-  {
-    title: 'Button',
-    route: '/sandbox/button',
-  },
-  {
-    title: 'Link',
-    route: '/sandbox/link',
+    title: 'Card Overlay',
+    route: '/sandbox/card-overlay',
   },
 ];
 
@@ -44,7 +24,6 @@ export default function HomePage() {
             <p className='mt-2 text-sm text-gray-800'>
               A Repository for Sandbox Dump creativity purpose{' '}
             </p>
-
             <div className='mt-6'>
               <div className='mt-2 flex flex-wrap justify-center gap-2'>
                 {sandbox.map(({ title, route }) => (
