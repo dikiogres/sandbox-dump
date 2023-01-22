@@ -14,7 +14,7 @@ const CardOverlay = () => {
       <div className='details'>
         <h1 className='title'>Avatar</h1>
         <h3 className='subtitle'>Directed by James Cameron</h3>
-        <div className='rating flex text-2xl text-yellow-500'>
+        <div className='rating flex text-2xl text-white'>
           <MdStar />
           <MdStar />
           <MdStar />
