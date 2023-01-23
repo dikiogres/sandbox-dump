@@ -1,5 +1,4 @@
 import React from 'react';
-import { MdStar, MdStarHalf, MdStarOutline } from 'react-icons/md';
 
 import NextImage from '@/components/NextImage';
 
@@ -11,7 +10,7 @@ const CardOverlay = () => {
       <div className='poster'>
         <NextImage src={PosterImage} alt='Poster' className='poster-img' />
       </div>
-      <div className='details'>
+      {/* <div className='details'>
         <h1 className='title'>Avatar</h1>
         <h3 className='subtitle'>Directed by James Cameron</h3>
         <div className='rating flex text-2xl text-white'>
@@ -62,7 +61,7 @@ const CardOverlay = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

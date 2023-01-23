@@ -9,6 +9,10 @@ const sandbox = [
     title: 'Card Overlay',
     route: '/sandbox/card-overlay',
   },
+  {
+    title: 'Sun',
+    route: '/sandbox/sun',
+  },
 ];
 
 export default function HomePage() {

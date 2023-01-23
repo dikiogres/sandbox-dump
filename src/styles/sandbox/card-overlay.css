@@ -6,18 +6,18 @@
   overflow: hidden;
   /* box-shadow: 0 15px 35px rgba(0,0,0,0.25); */
 }
-.card .poster {
+/* .card .poster {
   position: relative;
   overflow: hidden;
-}
+} */
 
 .card .poster::before {
-  content: '';
   position: absolute;
-  bottom: -350px;
+  bottom: -360px;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, #1064a6 50%, transparent);
+  background: #fff;
+  /* background: linear-gradient(0deg, #1064a6 50%, transparent); */
   transition: 0.5s;
   z-index: 1;
 }
@@ -36,9 +36,9 @@
   filter: blur(5px);
 }
 
-.card .details {
+/* .card .details {
   position: absolute;
-  bottom: -350px;
+  bottom: -360px;
   left: 0;
   padding: 20px;
   width: 100%;
@@ -103,6 +103,5 @@
   height: 35px;
   overflow: hidden;
   border-radius: 50%;
-  /* background-color: #ffffff; */
   border: 2px solid #fff;
-}
+} */
